@@ -62,7 +62,7 @@ const CardsCarousel = () => {
     >
       <section className="divCard flex flex-col gap-4 items-center group">
         <picture className="h-[200px] w-[200px] cursor-pointer flex-shrink-0 snap-start ">
-          <CardImage url={'./public/assets/img/argent.png'}/>
+          <CardImage url={'/assets/img/argent.png'}/>
         </picture>
         <div className=" flex gap-10 mt-3 justify-between w-full">
           <p >Argent</p>
@@ -74,7 +74,7 @@ const CardsCarousel = () => {
 
       <section className="divCard flex flex-col gap-4 items-center group">
         <picture className="h-[200px] w-[200px] cursor-pointer flex-shrink-0 snap-start ">
-          <CardImage url={'./public/assets/img/puntoweb.png'}/>
+          <CardImage url={'/assets/img/puntoweb.png'}/>
         </picture>
         <div className=" flex gap-10 mt-3 justify-between w-full">
           <p >PuntoWeb</p>
@@ -86,7 +86,7 @@ const CardsCarousel = () => {
 
       <section className="divCard flex flex-col gap-4 items-center group">
         <picture className="h-[200px] w-[200px] cursor-pointer flex-shrink-0 snap-start ">
-          <CardImage url={'./public/assets/img/online.png'}/>
+          <CardImage url={'/assets/img/online.png'}/>
         </picture>
         <div className=" flex gap-10 mt-3 justify-between w-full">
           <p >NoctAH</p>
@@ -98,7 +98,7 @@ const CardsCarousel = () => {
 
       <section className="divCard flex flex-col gap-4 items-center group">
         <picture className="h-[200px] w-[200px] cursor-pointer flex-shrink-0 snap-start ">
-          <CardImage url={'./public/assets/img/gallery.png'}/>
+          <CardImage url={'/assets/img/gallery.png'}/>
         </picture>
         <div className=" flex gap-10 mt-3 justify-between w-full">
           <p >Gallery</p>
@@ -110,7 +110,7 @@ const CardsCarousel = () => {
       
       <section className="divCard flex flex-col gap-4 items-center group">
         <picture className="h-[200px] w-[200px] cursor-pointer flex-shrink-0 snap-start ">
-          <CardImage url={'./public/assets/img/e-coomerce.png'}/>
+          <CardImage url={'/assets/img/e-coomerce.png'}/>
         </picture>
         <div className=" flex gap-10 mt-3 justify-between w-full">
           <p >Shop</p>

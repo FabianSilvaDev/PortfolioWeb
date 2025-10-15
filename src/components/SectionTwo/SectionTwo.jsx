@@ -3,6 +3,10 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { SplitText } from 'gsap/SplitText';
 import ButtonComponent from '../ButtonComponent/ButtonComponent.jsx';
+import Lottie from "lottie-react";
+import worldIcon from "../../../public/assets/iconsAnimated/world.json";
+
+
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -71,8 +75,12 @@ const SectionTwo = () => {
   return (
     <section className="sectionTwo flex flex-col mb-6 h-[700px] sm:h-[800px] w-full text-center items-center gap-10 ">
       <h2 className="text-6xl font-bold h-[15%] pt-10 font-[Anton] text-[#171717]">ABOUT ME</h2>
-      <p className="SectionTwoParagraf sm:text-4xl text-3xl w-full px-2 sm:w-[700px] font-[Aeonik]">
-      I collaborate with individuals, studios, and companies to transform their vision into powerful, engaging, and high-performing websites.</p>
+
+    <p className="SectionTwoParagraf sm:text-4xl text-3xl max-w-[700px] px-2 font-[Aeonik]">
+      I collaborate with individuals, studios, and companies
+      to transform their vision into powerful, engaging, and high-performing websites.
+    </p>
+
       <div className="btnC2-wrapper mt-10">
          <ButtonComponent cta="Go to see me"  />
       </div>

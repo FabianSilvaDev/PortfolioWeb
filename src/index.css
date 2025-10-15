@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('./assets/fonts/Aeonik/Aeonik-Regular.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Aeonik-Bold';
+  src: url('./assets/fonts/Aeonik/Aeonik-Bold.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Neuropolitical';
+  src: url('./assets/fonts/Neuropolitical-Regular.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Anton';
+  src: url('./assets/fonts/Anton/Anton-Regular.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GeistMono-Regular';
+  src: url('./assets/fonts/Geist-mono/GeistMono-Regular.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GeistMono-light';
+  src: url('./assets/fonts/Geist-mono/GeistMono-Light.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GeistMono-medium';
+  src: url('./assets/fonts/Geist-mono/GeistMono-Medium.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GeistMono-Semibold';
+  src: url('./assets/fonts/Geist-mono/GeistMono-SemiBold.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GeistMono-Bold';
+  src: url('./assets/fonts/Geist-mono/GeistMono-Bold.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #0e0e0e;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar{
+display: none;
+}

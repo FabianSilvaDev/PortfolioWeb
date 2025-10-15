@@ -1,0 +1,62 @@
+[
+    {
+        "id":1,
+        "name":"PUNTO WEB",
+        "description":"I designed and developed a landing page aimed at individuals and entrepreneurs who sell digital services and infoproducts, such as online courses, educational content, and productized services. The focus was on creating a clear, conversion-oriented layout with an engaging visual hierarchy and optimized user flow to increase sign-ups and sales.",
+        "img":[
+            "./src/assets/img/argent.png",
+            "./src/assets/img/argent.png"
+        ],
+         "labels":[
+            "2025",
+            "Figma",
+            "Wordpress",
+            "Javascript"
+        ]
+    },
+    {
+        "id":2,
+        "name":"ARGENT",
+        "description":"I participated in the development of the homepage (Home) for Argent, a Spanish company specialized in selling sports products with a focus on skateboarding and urban culture. My work included implementing the design, optimizing visual and responsive performance, and integrating dynamic sections aimed at enhancing user experience and highlighting key products.",
+        "img":[
+            "./src/assets/img/argent.png",
+            "./src/assets/img/argent.png"
+        ],
+         "labels":[
+            "2025",
+            "Figma",
+            "Wordpress",
+            "Javascript"
+        ]
+    },
+    {
+        "id":3,
+        "name":"AMIR LATAM",
+        "description":"I contributed to the development of most of the web infrastructure for AmirLatam, focusing on process automation, sales systems, and homologation management. My role involved optimizing the platform’s backend structure, improving data flow efficiency, and implementing automated solutions to streamline internal operations and sales processes.",
+        "img":[
+            "./src/assets/img/argent.png",
+            "./src/assets/img/argent.png"
+        ],
+         "labels":[
+            "2025",
+            "Figma",
+            "Wordpress",
+            "Javascript"
+        ]
+    },
+    {
+        "id":4,
+        "name":"LIGHT FLOWER",
+        "description":"I participated in the design and development of a digital platform for funeral accompaniment services, focused on providing a sensitive, accessible, and user-friendly experience for elderly users and families.My contribution included interface design, front-end development, and optimization of the user flow to ensure clarity, empathy, and ease of navigation during emotionally delicate moments.",
+        "img":[
+            "./src/assets/img/argent.png",
+            "./src/assets/img/argent.png"
+        ],
+        "labels":[
+            "2025",
+            "Figma",
+            "Wordpress",
+            "Javascript"
+        ]
+    }
+]

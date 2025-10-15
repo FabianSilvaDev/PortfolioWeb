@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import iconFile from "../../assets/iconsAnimated/iconFile.json";
+import iconFile from "../../../public/assets/iconsAnimated/iconFile.json";
 import Lottie from "lottie-react";
 import projects from "../../works.json";
 

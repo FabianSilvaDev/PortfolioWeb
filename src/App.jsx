@@ -10,6 +10,9 @@ import CardsCarousel from './components/CardsCarousel/CardsCarousel.jsx'
 import Text from './components/TextHeader/Text.jsx'
 import SectionTwo from './components/SectionTwo/SectionTwo.jsx'
 import SectionThree from './components/SectionThree/SectionThree.jsx'
+import SectionFour from './components/SectionFour/SectionFour.jsx'
+import Lottie from "lottie-react";
+import hanIcon from "../public/assets/iconsAnimated/han.json";
 
 
 gsap.registerPlugin(SplitText);
@@ -19,7 +22,7 @@ gsap.registerPlugin(ScrollTrigger);
 function App() {
   const titleRef = useRef(null);
   const carousel = useRef(null);
-const sectionTwo = useRef(null);
+
 
 
  useEffect(() => {
@@ -61,7 +64,7 @@ const sectionTwo = useRef(null);
 
 
       <Header />
-      <div className=' h-[90vh] flex items-center flex-col overflow-hidden sm:overflow-visible' >
+      <div className=' h-[90vh] flex items-center flex-col overflow-hidden sm:overflow-visible relative' >
         <div className='h-[70%] flex flex-col justify-center items-center' ref={titleRef}>
           <TitleHeader title="Building Digital Experiences That Last" />
           <Text Text="I’m Fabian, Creative Full-Stack Developer with 5+ years of experience.
@@ -74,10 +77,19 @@ const sectionTwo = useRef(null);
           </p>
           <CardsCarousel ref={carousel} />
         </section>
+        <span className="sm:hidden px-4 mt-5 py-1 absolute bottom-5 left-0 rounded-full justify-left">
+            <Lottie
+              className=" inline-block"
+              animationData={hanIcon}
+              loop
+              autoplay
+              style={{ width: 50, height:50 }}
+            />
+          </span>
       </div>
-      
       <SectionTwo />
       <SectionThree/>
+      <SectionFour/>
 
       
     </>

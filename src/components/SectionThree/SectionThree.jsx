@@ -9,7 +9,7 @@ const SectionThree = () => {
   return (
     <div className="h-auto w-full">
       <div className="sm:flex justify-between w-full">
-        <h3 className="text-5xl font-[Aeonik-Bold] w-full sm:w-[600px] sm:text-left px-3 text-center">
+        <h3 className="text-5xl font-[Aeonik-Bold] w-full sm:w-[600px] text-left px-3">
           Here is a selection of my most recent works
           <span className="inline-flex items-center px-4 py-1 mt-1 ml-4 rounded-full border-2 border-solid">
             <Lottie
@@ -71,7 +71,7 @@ const SectionThree = () => {
             {/* Nombre del proyecto */}
             <div className="w-full flex flex-col justify-center items-center">
               <h3
-              className={`text-6xl sm:text-7xl font-[Anton] sm:text-center w-[100%] sm:w-[100%] transition-all duration-500 mt-4
+              className={`text-6xl sm:text-9xl font-[Anton] sm:text-center w-[100%] sm:w-[100%] transition-all duration-500 mt-4
                 ${
                   hovered === project.id
                     ? "text-gray-200 sm:scale-110"

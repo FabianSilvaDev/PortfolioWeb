@@ -76,7 +76,7 @@ const SectionTwo = () => {
     <section className="pl-4 sectionTwo flex flex-col mb-6 h-[700px] sm:h-[800px] w-full sm:items-center gap-10 ">
       <h2 className="text-6xl font-bold h-[15%] pt-10 font-[Anton] text-[#171717] text-left ">ABOUT ME</h2>
 
-    <p className="SectionTwoParagraf text-3xl sm:text-4xl w-full sm:w-[700px] px-2 font-[Aeonik] text-left sm:text-center">
+    <p className="SectionTwoParagraf text-3xl sm:text-4xl w-full sm:w-[700px] font-[Aeonik] text-left sm:text-center">
       I collaborate with individuals, studios, and companies
       to transform their vision into powerful, engaging, and high-performing websites.
     </p>

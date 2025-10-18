@@ -9,7 +9,7 @@ const SectionThree = () => {
   return (
     <div className="h-auto w-full">
       <div className="sm:flex justify-between w-full">
-        <h3 className="text-5xl font-[Aeonik-Bold] w-full sm:w-[600px] text-left px-3">
+        <h3 className="text-5xl font-[Aeonik-Bold] w-full sm:w-[600px] text-left pl-4">
           Here is a selection of my most recent works
           <span className="inline-flex items-center px-4 py-1 mt-1 ml-4 rounded-full border-2 border-solid">
             <Lottie

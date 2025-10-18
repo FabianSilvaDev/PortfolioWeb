@@ -12,8 +12,9 @@
          "labels":[
             "2025",
             "Figma",
-            "Wordpress",
-            "Javascript"
+            "Astro",
+            "Javascript",
+            "php"
         ]
     },
     {
@@ -28,9 +29,12 @@
         ],
          "labels":[
             "2025",
-            "Figma",
+            "php",
+            "Aws",
+            "Javascript",
             "Wordpress",
-            "Javascript"
+            "hosdpot"
+
         ]
     },
     {
@@ -60,9 +64,12 @@
         ],
         "labels":[
             "2025",
-            "Figma",
-            "Wordpress",
-            "Javascript"
+            "React",
+            "TailwindCss",
+            "Javascript",
+            "php",
+            "Wordpress"
+
         ]
     }
 ]

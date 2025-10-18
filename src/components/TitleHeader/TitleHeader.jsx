@@ -16,7 +16,7 @@ const TitleHeader = ({title})=>{
     },[])
 
     return(
-            <h1 className='font-[Anton] text-4xl sm:text-7xl sm:w-[700px] w-[350px] text-center leading-snug box-border mb-2'>
+            <h1 className='font-[Anton] text-4xl sm:text-6xl sm:w-[600px] w-[350px] text-center leading-snug box-border'>
                 {title}
             </h1>
     )

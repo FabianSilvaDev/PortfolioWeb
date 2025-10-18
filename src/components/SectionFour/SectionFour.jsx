@@ -46,10 +46,11 @@ const SectionFour = () => {
 }, []);
 
   return (
-    <section className="sectionFour h-[500px] w-full  mt-20 flex flex-col items-center justify-center">
+    <section className="sectionFour h-[500px] w-full  mt-20 flex flex-col items-center justify-center overflow-hidden">
       <article>
+
         <h5
-          className="pSectionFour mb-15 font-[Aeonik] sm:font-[Aeonik-Bold] text-3xl sm:text-4xl sm:w-[800px] text-left w-[390px] pl-3"
+          className="pSectionFour mb-15 font-[Aeonik] sm:font-[Aeonik-Bold] text-3xl sm:text-4xl sm:w-[800px] text-left sm:text-center w-[390px] pl-3"
         >
           <span className="inline-flex items-center px-4 py-1 mt-1 mr-3 rounded-full border-2 border-solid border-gray-700">
             <Lottie
@@ -61,8 +62,8 @@ const SectionFour = () => {
             />
           </span>
           Skilled in full-stack development using PHP, Node.js, MySQL, React, Vue,
-          Astro, Express, and Laravel — 
-           <span className="inline-flex items-center px-4 py-1 mt-1 mr-3 rounded-full border-2 border-solid border-gray-700">
+          Astro, Express, and Laravel
+           <span className="inline-flex items-center px-4 py-1 mt-1 mx-3 rounded-full border-2 border-solid border-gray-700">
             <Lottie
               className="inline-block"
               animationData={pageIcon}
@@ -74,6 +75,7 @@ const SectionFour = () => {
           focused on scalable,
           user-centered solutions.
         </h5>
+
         <div className="btn-3">
             <ButtonComponent cta={"Watch my github"}/>
         </div>
